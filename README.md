@@ -1,6 +1,6 @@
 # My personal portfolio.
 
-this is mu personal portfolio in this are including all my projects
+this is my personal portfolio in this are including all my projects
 is realized in html, css and javascript  also is 100% responsive 
 
 If you like,Clone, enjoy and give me a star!
