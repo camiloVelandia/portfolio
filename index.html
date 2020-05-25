@@ -1,258 +1,754 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Camilo Velandia.</title>
-  <link rel="icon" type="image.png" href="images/favicon.png">
-  <style>@font-face{font-family:'icomoon';src:url('/fonts/icomoon.eot?mhopqn');src:url('/fonts/icomoon.eot?mhopqn#iefix') format('embedded-opentype'),url('/fonts/icomoon.ttf?mhopqn') format('truetype'),url('/fonts/icomoon.woff?mhopqn') format('woff'),url('/fonts/icomoon.svg?mhopqn#icomoon') format('svg');font-weight:normal;font-style:normal;font-display:block}[class^="icon-"]{font-family:'icomoon'!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-menu:before{content:"\e900"}body{font-family:'Source Sans Pro',system-ui;margin:0}h1,h2,h3,h6{font-family:"Fjalla One",system-ui;font-weight:normal}h1{font-size:40px;line-height:1.5;letter-spacing:-.2px;color:white;margin:0;max-width:500px;f}h1 strong{color:#026fff}h2{color:#026fff;text-transform:uppercase;font-family:'Source Sans Pro',system-ui;font-weight:bold;font-size:24px;margin-bottom:40px}.hero{height:300px;background-color:#1b2127;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}.hero-image{object-fit:cover}.portfolio{background:#fafafa;padding:20px}.project{border:1px solid gray;border-radius:10px;margin-bottom:15px;padding:20px;background:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}.project-url{margin:10px 0}.project-url a{color:#000}.project-description{font-size:20px}.project-title{font-size:30px;margin-top:0;margin-bottom:10px}.project-details{width:50%}.project-imageContainer{width:50%}.project-imageContainer img{max-width:100%}.header{background-color:#1b2127;color:white;display:flex;height:70px;align-items:center;justify-content:space-between;flex-wrap:wrap}ol{margin:0;padding:0;list-style:none}figure{margin:0}.header a{color:white;text-decoration:none}.menu{height:inherit}.header ol{display:flex;height:inherit}.header ol li{height:inherit}.header a{display:flex;align-items:center;height:inherit;padding:0 10px}.wrapper{max-width:1000px;flex:1;margin:0 auto;display:inherit;justify-content:inherit;align-items:inherit;height:inherit;flex-wrap:inherit}.burger-button{width:40px;height:40px;border-radius:50%;background-color:rgba(0,0,0,.5);display:none;line-height:40px;text-align:center;position:fixed;z-index:4;left:5px;top:5px;color:white}@media screen and (max-width:1023px){.portfolio{padding:0}.wrapper{padding:0 1em}.hero{height:auto;position:relative;overflow:hidden;padding:2em}.hero-image{position:absolute;z-index:1;left:0;right:0;top:0;bottom:0;width:100%}h1{font-size:2em;z-index:2;background:black}}@media screen and (max-width:767px){h2{font-size:1.2em;margin:.5em 0}.burger-button{display:block}.header{display:block;height:auto}.header ol{display:initial}.header ol li{height:50px}.header a{justify-content:center;height:40px;font-size:2em;text-decoration:underline;margin-bottom:.5em}.header .logo{text-align:center}.menu{position:fixed;background:rgba(5,111,255,.8);z-index:3;top:0;left:-100vw;width:100vw;bottom:0;display:flex;align-items:center;justify-content:center}.project{display:block}.project-imageContainer{width:auto;text-align:center}.project-details{width:auto}.project-course,.project-date,.project-url{margin:.3em 0}.project-title{font-size:1.5em;margin-bottom:.3em}.project-url{font-size:1em}.project-course{font-size:.7em}.project-date{font-size:1em}.project-description{font-size:1em}}@media screen and (max-width:480px){h1{font-size:1.5em}.project-details{font-size:14px}}@media screen and (max-width:320px){h1{font-size:1em}.hero{padding:2em 1em}}</style>
-  <meta name="viewport" content="width=device-width, initial-scale=1" >
-</head>
-<body>
-  <i class="icon-menu burger-button" id="burger-menu"></i>
-  <header class="header">
-    <div class="wrapper">
-      <figure class="logo">
-        <img src="images/c.png" alt="imagen de logo" height="100" >
-      </figure>
-    <nav class="menu">
-      <ol>
-        <li>
-          <a class= "link" href="#portafolio"> Portafolio</a>
-        </li>
-        <li>
-          <a class= "link" href="#personal">Acerca de mi</a>
-        </li>
-        <li>
-          <a class= "link" href="#trabajemos">Trabajemos Juntos</a>
-        </li>
-      </ol>
-    </nav>
-    </div>
-  </header>
- <section class="hero">
-    <div class="wrapper">
-      <h1>
-      Hola!  soy <strong>Camilo Velandia</strong> <br> Desarrollador <strong>Front-end</strong> con <br>experiencia en <strong>JavaScript.</strong>
-      </h1>
-      <img class="hero-image" src="images/hero.jpeg" width="500" height="300" alt="imagen principal del sitio">  
-    </div>
-</section> 
-  <section class="portfolio" id="portafolio">
-    <div class="wrapper">
-      <h2>portafolio(Proyectos destacados)</h2>
-      <article class="project">
-      <div class="project-details">
-        <h3 class="project-title">Tech Conf</h3>
-        <h6 class="project-course">Html5,Css3,Bootstrap 4, javascript</h6>
-        <p class="project-date"><small><strong>Fecha:</strong> 07/02/2020</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/Tech-conf">github.com/camiloVelandia/Tech-Conf</a></small></p>
-        <p class="project-url"><small><strong>Live Demo </strong> <a href="https://camilovelandia.github.io/Tech-conf/">Aqui</a></small></p>
-        <p class="project-description">Este un proyecto realizado en Html, Css Bootstrap y JavaScript. Es el desarrollo de una interfaz para una conferencia usando todas la ventajas que ofrece Bootstrap.</p>
-      </div>
-    <figure class="project-imageContainer">
-        <img class="project-image" width="500px" height="300px" src="images/conf2.png" alt="proyecto homs">
-    </figure>
-    </article> 
-    <article class="project">
-      <div class="project-details">
-        <h3 class="project-title">Marvel Heroes</h3>
-        <h6 class="project-course">Html5,Css3,Responsive design, javascript, API de marvel developer.</h6>
-        <p class="project-date"><small><strong>Fecha:</strong> 04/03/2020</small></p>
-        <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/Marvel_heroes">github.com/camiloVelandia/Marvel Heroes</a></small></p>
-        <p class="project-url"><small><strong>Live Demo </strong> <a href="https://camilovelandia.github.io/Marvel_heroes/">Aqui</a></small></p>
-        <p class="project-description">Proyecto realizado en Html, Css y JavaScript. Es el desarrollo de una interfaz para consultar datos de los personajes del universo marvel atravez de su API publica.</p>
-      </div>
-    <figure class="project-imageContainer">
-        <img class="project-image" width="500px" height="300px" src="images/marvel.PNG" alt="proyecto homs">
-    </figure>
-    </article> 
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">xaTripps App.</h3>
-          <h6 class="project-course">Flutter & Dart</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 24/09/2019</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/xaTripps">github.com/camiloVelandia/xaTripps</a></small></p>
-          <p class="project-description">xaTripps_app es el primer proyecto que desarrolle, fue 
-            el resultado de un mes de trabajo para comprender el funcionamiento de Flutter y Dart.
-            Usando la arquitectura BLoC, este proyecto es muestra de lo que podemos lograr con estas tecnologias.</p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/tripps.png" alt="proyecto trips app">
-      </figure>
-      </article>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">PlatziVideo.</h3>
-          <h6 class="project-course">Html5,javascript,Css Grids.</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 05/11/2019</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/PlatziVideo">github.com/camiloVelandia/PlatziVideo</a></small></p>
-          <p class="project-description">PlatziVideo es un sitio web realizado en Html, Css y javascript usando todas las ventajas que ofrecen los Grids Layouts. Tambien ofrece funcionalidades mediante el consumo de API para la consulta de movies.</p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/platzivideo.PNG" alt="proyecto trips app">
-      </figure>
-      </article>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Homs.</h3>
-          <h6 class="project-course">Html5,Css3,CssGrids,Javascript</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 28/11/2019</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/Homs">github.com/camiloVelandia/Homs</a></small></p>
-          <p class="project-url"><small><strong>Live Demo </strong> <a href="https://camilovelandia.github.io/Homs/">Aqui</a></small></p>
-          <p class="project-description">Homs es un proyecto realizado en Html, Css y javascript. Es un E-commerce de articulos para el hogar, Desarrollado en un tiempo de 20 dias. </p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/homs.png" alt="proyecto homs">
-      </figure>
-      </article>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Simon dice(juego).</h3>
-          <h6 class="project-course">Html5,Css3,Javascript</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 11/01/2020</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/SimonDice">github.com/camiloVelandia/SimonDice </a></small></p>
-          <p class="project-description">Simon dice es un pequeño juego realizado en Html, Css y javascript.</p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/simon.png" alt="proyecto homs">
-      </figure>
-      </article>   
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">INVIE</h3>
-          <h6 class="project-course">Html5,Css3,Javascript, React JS, Node JS</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 12/12/2019</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/Invie">github.com/camiloVelandia/invie</a></small></p>
-          <p class="project-description">INVIE es un proyecto realizado en Html, Css y React JS. Es una tienda de air guitars en el cual se usa un easter egg para cambiar la apariencia del sitio web. </p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/invie.png" alt="proyecto homs">
-      </figure>
-      </article>     
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Games-news</h3>
-          <h6 class="project-course">Html5,Css3,Sass,Less,Stylus,Pug</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 31/01/2020</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/Games-news">github.com/camiloVelandia/Games-news</a></small></p>
-          <p class="project-description">Este un proyecto realizado en Html, Css y los preprocesadores SASS, LESS, STYLUS y PUG. Es la maquetacion de un sitio web  de noticias de la industria gamer usando los diferentes preprocesadores css.</p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/Games.png" alt="proyecto homs">
-      </figure>
-      </article>         
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">myShop</h3>
-          <h6 class="project-course">Html5,Css3,Foundation, javascript</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 11/02/2020</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://github.com/camiloVelandia/myshop">github.com/camiloVelandia/myShop</a></small></p>
-          <p class="project-description">Este un proyecto realizado en Html, Css Foundation y JavaScript. Es el desarrollo de una interfaz para un e-commerce usando todas la ventajas que ofrece Foundation.</p>
-        </div>
-      <figure class="project-imageContainer">
-          <img class="project-image" width="500px" height="300px" src="images/myshop.png" alt="proyecto myshop">
-      </figure>
-      </article>     
-
-    </div>
-  </section>
-   <div class="wrapper">
-   <h2 class="event-list-title">más sobre mi</h2>
-  </div> 
-  <section id="personal" class="event-list">
-    <div class="wrapper">
-      <article class="event">
-        <figure class="event-imageContainer">
-          <img class="event-image" src="images/seminario.png" width="500"/>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Camilo Velandia.</title>
+    <link
+      rel="icon"
+      type="image.png"
+      href="images/favicon.png"
+    />
+    <style>
+      @font-face{font-family:'icomoon';src:url('/fonts/icomoon.eot?mhopqn');src:url('/fonts/icomoon.eot?mhopqn#iefix') format('embedded-opentype'),url('/fonts/icomoon.ttf?mhopqn') format('truetype'),url('/fonts/icomoon.woff?mhopqn') format('woff'),url('/fonts/icomoon.svg?mhopqn#icomoon') format('svg');font-weight:normal;font-style:normal;font-display:block}[class^="icon-"]{font-family:'icomoon'!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-menu:before{content:"\e900"}body{font-family:'Source Sans Pro',system-ui;margin:0}h1,h2,h3,h6{font-family:"Fjalla One",system-ui;font-weight:normal}h1{font-size:40px;line-height:1.5;letter-spacing:-.2px;color:white;margin:0;max-width:500px;f}h1 strong{color:#026fff}h2{color:#026fff;text-transform:uppercase;font-family:'Source Sans Pro',system-ui;font-weight:bold;font-size:24px;margin-bottom:40px}.hero{height:300px;background-color:#1b2127;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}.hero-image{object-fit:cover}.portfolio{background:#fafafa;padding:20px}.project{border:1px solid gray;border-radius:10px;margin-bottom:15px;padding:20px;background:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}.project-url{margin:10px 0}.project-url a{color:#000}.project-description{font-size:20px}.project-title{font-size:30px;margin-top:0;margin-bottom:10px}.project-details{width:50%}.project-imageContainer{width:50%}.project-imageContainer img{max-width:100%}.header{background-color:#1b2127;color:white;display:flex;height:70px;align-items:center;justify-content:space-between;flex-wrap:wrap}ol{margin:0;padding:0;list-style:none}figure{margin:0}.header a{color:white;text-decoration:none}.menu{height:inherit}.header ol{display:flex;height:inherit}.header ol li{height:inherit}.header a{display:flex;align-items:center;height:inherit;padding:0 10px}.wrapper{max-width:1000px;flex:1;margin:0 auto;display:inherit;justify-content:inherit;align-items:inherit;height:inherit;flex-wrap:inherit}.burger-button{width:40px;height:40px;border-radius:50%;background-color:rgba(0,0,0,.5);display:none;line-height:40px;text-align:center;position:fixed;z-index:4;left:5px;top:5px;color:white}@media screen and (max-width:1023px){.portfolio{padding:0}.wrapper{padding:0 1em}.hero{height:auto;position:relative;overflow:hidden;padding:2em}.hero-image{position:absolute;z-index:1;left:0;right:0;top:0;bottom:0;width:100%}h1{font-size:2em;z-index:2;background:black}}@media screen and (max-width:767px){h2{font-size:1.2em;margin:.5em 0}.burger-button{display:block}.header{display:block;height:auto}.header ol{display:initial}.header ol li{height:50px}.header a{justify-content:center;height:40px;font-size:2em;text-decoration:underline;margin-bottom:.5em}.header .logo{text-align:center}.menu{position:fixed;background:rgba(5,111,255,.8);z-index:3;top:0;left:-100vw;width:100vw;bottom:0;display:flex;align-items:center;justify-content:center}.project{display:block}.project-imageContainer{width:auto;text-align:center}.project-details{width:auto}.project-course,.project-date,.project-url{margin:.3em 0}.project-title{font-size:1.5em;margin-bottom:.3em}.project-url{font-size:1em}.project-course{font-size:.7em}.project-date{font-size:1em}.project-description{font-size:1em}}@media screen and (max-width:480px){h1{font-size:1.5em}.project-details{font-size:14px}}@media screen and (max-width:320px){h1{font-size:1em}.hero{padding:2em 1em}}
+    </style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+  </head>
+  <body>
+    <i
+      class="icon-menu burger-button"
+      id="burger-menu"
+    ></i>
+    <header class="header">
+      <div class="wrapper">
+        <figure class="logo">
+          <img
+            src="images/c.png"
+            alt="imagen de logo"
+            height="100"
+          />
         </figure>
-        <div class="event-detail">
-          <H3 class="event-title">Seminario Desarrollo de sitios web</H3>
-          <p class="event-description">Participe en un SEMINARIO para el desarrollo de sitios web, el cual fue ofrecido por el Politecnico suramericano. Aprendi de las diferente arquitecturas y al final realizamos un proyecto en HTML, CSS y JAVASCRIPT. </p>
-          <a class="event-url" href="https://drive.google.com/open?id=10Hsgbz0Woe7QbIM_MSUEReQ_-Vm60cyg" target="_blank">ver certificado.</a>
-        </div>
-      </article>
-      <article class="event">
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">
+                Portafolio</a
+              >
+            </li>
+            <li>
+              <a class="link" href="#personal"
+                >Acerca de mi</a
+              >
+            </li>
+            <li>
+              <a class="link" href="#trabajemos"
+                >Trabajemos Juntos</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="wrapper">
+        <h1>
+          Hola! soy <strong>Camilo Velandia</strong>
+          <br />
+          Desarrollador <strong>Front-end</strong> con
+          <br />experiencia en
+          <strong>JavaScript.</strong>
+        </h1>
+        <img
+          class="hero-image"
+          src="images/hero.jpeg"
+          width="500"
+          height="300"
+          alt="imagen principal del sitio"
+        />
+      </div>
+    </section>
+    <section class="portfolio" id="portafolio">
+      <div class="wrapper">
+        <h2>portafolio(Proyectos destacados)</h2>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Petgram</h3>
+            <h6 class="project-course">
+              React.js, Reach-router, Webpack
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                12/04/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/Petgram"
+                  >github.com/camiloVelandia/Petgram</a
+                ></small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Live Demo </strong>
+                <a
+                  href="https://petgram.camilovelandia.now.sh"
+                  >Aqui</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              Este un proyecto realizado en React.js.
+              Es una PWA similar a instagram pero
+              enfocada a mascotas.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/petgram.png"
+              alt="petgram"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Tech Conf</h3>
+            <h6 class="project-course">
+              Html5,Css3,Bootstrap 4, javascript
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                07/02/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/Tech-conf"
+                  >github.com/camiloVelandia/Tech-Conf</a
+                ></small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Live Demo </strong>
+                <a
+                  href="https://camilovelandia.github.io/Tech-conf/"
+                  >Aqui</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              Este un proyecto realizado en Html, Css
+              Bootstrap y JavaScript. Es el desarrollo
+              de una interfaz para una conferencia
+              usando todas la ventajas que ofrece
+              Bootstrap.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/conf2.png"
+              alt="proyecto homs"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Pugstagram</h3>
+            <h6 class="project-course"></h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                11/05/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/PugsTagram"
+                  >github.com/camiloVelandia/pugstagram</a
+                ></small
+              >
+            </p>
+            <p class="project-url"></p>
+            <p class="project-description">
+              En Pugstagram yo conoci y aprendi acerca
+              de un framework llamado Svelte, trate de
+              sacar todo las ventajas de Svelte en este
+              proyecto.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/pugstagram.png"
+              alt="pugstagram"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">
+              Marvel Heroes
+            </h3>
+            <h6 class="project-course">
+              Html5,Css3,Responsive design, javascript,
+              API de marvel developer.
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                04/03/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/Marvel_heroes"
+                  >github.com/camiloVelandia/Marvel
+                  Heroes</a
+                ></small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Live Demo </strong>
+                <a
+                  href="https://camilovelandia.github.io/Marvel_heroes/"
+                  >Aqui</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              Proyecto realizado en Html, Css y
+              JavaScript. Es el desarrollo de una
+              interfaz para consultar datos de los
+              personajes del universo marvel atravez de
+              su API publica.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/marvel.PNG"
+              alt="proyecto homs"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">
+              xaTripps App.
+            </h3>
+            <h6 class="project-course">
+              Flutter & Dart
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                24/09/2019</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/xaTripps"
+                  >github.com/camiloVelandia/xaTripps</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              xaTripps_app es el primer proyecto que
+              desarrolle, fue el resultado de un mes de
+              trabajo para comprender el funcionamiento
+              de Flutter y Dart. Usando la arquitectura
+              BLoC, este proyecto es muestra de lo que
+              podemos lograr con estas tecnologias.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/tripps.png"
+              alt="proyecto trips app"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">PlatziVideo.</h3>
+            <h6 class="project-course">
+              Html5,javascript,Css Grids.
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                05/11/2019</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/PlatziVideo"
+                  >github.com/camiloVelandia/PlatziVideo</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              PlatziVideo es un sitio web realizado en
+              Html, Css y javascript usando todas las
+              ventajas que ofrecen los Grids Layouts.
+              Tambien ofrece funcionalidades mediante
+              el consumo de API para la consulta de
+              movies.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/platzivideo.PNG"
+              alt="proyecto trips app"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Homs.</h3>
+            <h6 class="project-course">
+              Html5,Css3,CssGrids,Javascript
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                28/11/2019</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/Homs"
+                  >github.com/camiloVelandia/Homs</a
+                ></small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Live Demo </strong>
+                <a
+                  href="https://camilovelandia.github.io/Homs/"
+                  >Aqui</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              Homs es un proyecto realizado en Html,
+              Css y javascript. Es un E-commerce de
+              articulos para el hogar, Desarrollado en
+              un tiempo de 20 dias.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/homs.png"
+              alt="proyecto homs"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">
+              Simon dice(juego).
+            </h3>
+            <h6 class="project-course">
+              Html5,Css3,Javascript
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                11/01/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/SimonDice"
+                  >github.com/camiloVelandia/SimonDice
+                </a></small
+              >
+            </p>
+            <p class="project-description">
+              Simon dice es un pequeño juego realizado
+              en Html, Css y javascript.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/simon.png"
+              alt="proyecto homs"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">INVIE</h3>
+            <h6 class="project-course">
+              Html5,Css3,Javascript, React JS, Node JS
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                12/12/2019</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/Invie"
+                  >github.com/camiloVelandia/invie</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              INVIE es un proyecto realizado en Html,
+              Css y React JS. Es una tienda de air
+              guitars en el cual se usa un easter egg
+              para cambiar la apariencia del sitio web.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/invie.png"
+              alt="proyecto homs"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Games-news</h3>
+            <h6 class="project-course">
+              Html5,Css3,Sass,Less,Stylus,Pug
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                31/01/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/Games-news"
+                  >github.com/camiloVelandia/Games-news</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              Este un proyecto realizado en Html, Css y
+              los preprocesadores SASS, LESS, STYLUS y
+              PUG. Es la maquetacion de un sitio web de
+              noticias de la industria gamer usando los
+              diferentes preprocesadores css.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/Games.png"
+              alt="proyecto homs"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">myShop</h3>
+            <h6 class="project-course">
+              Html5,Css3,Foundation, javascript
+            </h6>
+            <p class="project-date">
+              <small
+                ><strong>Fecha:</strong>
+                11/02/2020</small
+              >
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes verlo en:</strong>
+                <a
+                  href="https://github.com/camiloVelandia/myshop"
+                  >github.com/camiloVelandia/myShop</a
+                ></small
+              >
+            </p>
+            <p class="project-description">
+              Este un proyecto realizado en Html, Css
+              Foundation y JavaScript. Es el desarrollo
+              de una interfaz para un e-commerce usando
+              todas la ventajas que ofrece Foundation.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              width="500px"
+              height="300px"
+              src="images/myshop.png"
+              alt="proyecto myshop"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <div class="wrapper">
+      <h2 class="event-list-title">más sobre mi</h2>
+    </div>
+    <section id="personal" class="event-list">
+      <div class="wrapper">
+        <article class="event">
           <figure class="event-imageContainer">
-            <img class="event-image" src="images/android.PNG" width="500"/>
+            <img
+              class="event-image"
+              src="images/seminario.png"
+              width="500"
+            />
           </figure>
           <div class="event-detail">
-            <H3 class="event-title">Desarrollo de Apps android</H3>
-            <p class="event-description">Creacion de apps en Android o en la web, con las herramientas de Google, principalmente Dart & Flutter</p>
-            <a class="event-url" href="https://drive.google.com/open?id=1YOp6bH4zc6pP6PFSlqcMnjAUJ4u67t00" target="_blank">ver certificado</a>
+            <h3 class="event-title">
+              Seminario Desarrollo de sitios web
+            </h3>
+            <p class="event-description">
+              Participe en un SEMINARIO para el
+              desarrollo de sitios web, el cual fue
+              ofrecido por el Politecnico suramericano.
+              Aprendi de las diferente arquitecturas y
+              al final realizamos un proyecto en HTML,
+              CSS y JAVASCRIPT.
+            </p>
+            <a
+              class="event-url"
+              href="https://drive.google.com/open?id=10Hsgbz0Woe7QbIM_MSUEReQ_-Vm60cyg"
+              target="_blank"
+              >ver certificado.</a
+            >
           </div>
-      </article>
-      <article class="event">
-         <figure class="event-imageContainer">
-          <img class="event-image" src="images/activa.png" width="500"/>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img
+              class="event-image"
+              src="images/front.png"
+              width="500"
+            />
           </figure>
-            <div class="event-detail">
-              <H3 class="event-title">Google activate</H3>
-              <p class="event-description"> Realice el curso de desarrollo web en GOOGLE mejorando mis habilidades para crear páginas web profesionales adaptables a distintos dispositivos de la mano de la Universidad de Alicante.</p>
-              <a class="event-url" href="https://drive.google.com/open?id=1qAmkuMiT3j7zTkWkY1MbGxOswRt3bouT" target="_blank">ver certificado</a>
-            </div>
-       </article>
-          <article class="event">
-              <figure class="event-imageContainer">
-                <img class="event-image" src="images/sena.jpg" width="500"/>
-              </figure>
-              <div class="event-detail">
-                <H3 class="event-title">Tecnico En Sistemas</H3>
-                <p class="event-description">Realice un estudio como tecnico en sistemas, para complementar mi conocimiento y adquirir nuevas habilidades.</p>
-                <a class="event-url" href="https://drive.google.com/open?id=191iNSWPa2zjIT7725dFppzIhhAyPwes7" target="_blank">ver certificado</a>
-              </div>
-            </article>    
-    </div>
-  </section> 
-  <section id="trabajemos" class="contact">
-    <div class="wrapper">
-      <form  class="form-email" action="/suscripcion/">
-        <h3>¿Creamos algo juntos?</h3>
-      <input type="text" placeholder="Dejame tu email" id="email" >
-      <button>Enviar</button>
-      </form>
-      <div class="social">
-        <a href="https://twitter.com/xander_coder" class="social-link twitter"></a>
-        <a href="https://www.facebook.com/camilo.velandia.566" class="social-link facebook"></a>
-        <a href="https://github.com/camiloVelandia" class="social-link github"></a>
-        <a href="na" class="social-link instagram"></a>
+          <div class="event-detail">
+            <h3 class="event-title">
+              Desarrollo Frontend
+            </h3>
+            <p class="event-description">
+              Creacion de sitios web desde cero con una
+              interfaz gráfica dinámica y atractiva en
+              el navegador y dispositivos móviles,
+              aplicando HTML, CSS y Javascript.
+            </p>
+            <a
+              class="event-url"
+              href="https://platzi.com/@CamiloVelandia/ruta/7-arquitecto/diploma/detalle/"
+              target="_blank"
+              >ver certificado</a
+            >
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img
+              class="event-image"
+              src="images/activa.png"
+              width="500"
+            />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">
+              Google activate
+            </h3>
+            <p class="event-description">
+              Realice el curso de desarrollo web en
+              GOOGLE mejorando mis habilidades para
+              crear páginas web profesionales
+              adaptables a distintos dispositivos de la
+              mano de la Universidad de Alicante.
+            </p>
+            <a
+              class="event-url"
+              href="https://drive.google.com/open?id=1qAmkuMiT3j7zTkWkY1MbGxOswRt3bouT"
+              target="_blank"
+              >ver certificado</a
+            >
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img
+              class="event-image"
+              src="images/sena.jpg"
+              width="500"
+            />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">
+              Tecnico En Sistemas
+            </h3>
+            <p class="event-description">
+              Realice un estudio como tecnico en
+              sistemas, para complementar mi
+              conocimiento y adquirir nuevas
+              habilidades.
+            </p>
+            <a
+              class="event-url"
+              href="https://drive.google.com/open?id=191iNSWPa2zjIT7725dFppzIhhAyPwes7"
+              target="_blank"
+              >ver certificado</a
+            >
+          </div>
+        </article>
       </div>
-    </div>
-  </section> 
-  <footer class="footer">
-    <div class="wrapper">
-      <div>
-        <p>Desarrollo Web online <img src="images/platzi.png" width="80" alt="platzi"></p>
-    </div>
-      <div>
-        <p>
-          Designed by <a href="https://twitter.com/thespianartist">@thespianartist </a>
-        </p>
+    </section>
+    <section id="trabajemos" class="contact">
+      <div class="wrapper">
+        <form
+          class="form-email"
+          action="/suscripcion/"
+        >
+          <h3>¿Creamos algo juntos?</h3>
+          <input
+            type="text"
+            placeholder="Dejame tu email"
+            id="email"
+          />
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a
+            href="https://twitter.com/xander_coder"
+            class="social-link twitter"
+          ></a>
+          <a
+            href="https://www.facebook.com/camilo.velandia.566"
+            class="social-link facebook"
+          ></a>
+          <a
+            href="https://github.com/camiloVelandia"
+            class="social-link github"
+          ></a>
+          <a
+            href="Software developer. Specialized in frontend !!"
+            class="social-link instagram"
+          ></a>
+        </div>
       </div>
-    </div>
-  </footer> 
-  <link rel="stylesheet" href="css/estilos-min.css">
-  <script>
-    const ipad =window.matchMedia('screen and (max-width:767px)');
-    const menu = document.querySelector('.menu');
-    const burgerButton = document.querySelector('#burger-menu');
-    ipad.addListener(validation)
-    
-    function validation(event){
-      if (event.matches){
-        burgerButton.addEventListener('click', hideShow);
-      }else{
-        burgerButton.removeEventListener('click', hideShow);
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div>
+          <p>
+            Desarrollo Web online
+            <img
+              src="images/platzi.png"
+              width="80"
+              alt="platzi"
+            />
+          </p>
+        </div>
+        <div>
+          <p>
+            Designed by
+            <a
+              href="https://twitter.com/thespianartist"
+              >@thespianartist
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <link
+      rel="stylesheet"
+      href="css/estilos-min.css"
+    />
+    <script>
+      const ipad = window.matchMedia(
+        "screen and (max-width:767px)"
+      );
+      const menu = document.querySelector(".menu");
+      const burgerButton = document.querySelector(
+        "#burger-menu"
+      );
+      ipad.addListener(validation);
+
+      function validation(event) {
+        if (event.matches) {
+          burgerButton.addEventListener(
+            "click",
+            hideShow
+          );
+        } else {
+          burgerButton.removeEventListener(
+            "click",
+            hideShow
+          );
+        }
       }
-    }
-    validation(ipad);
-    function hideShow(){
-      if(menu.classList.contains('is-active')){
-      menu.classList.remove('is-active');
-    }else{
-    menu.classList.add('is-active');
-    }
-  }
-</script>
-<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
-</body>
+      validation(ipad);
+      function hideShow() {
+        if (menu.classList.contains("is-active")) {
+          menu.classList.remove("is-active");
+        } else {
+          menu.classList.add("is-active");
+        }
+      }
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </body>
 </html>
